@@ -1,0 +1,16 @@
+digraph Garretts_planner {
+
+A [label="Start"]
+B [label="tutorial"]
+C [label="eat food"]
+D [label="drink potion"]
+E
+F
+G
+
+A -> B [label="Start Sequence", fontcolor="green"]
+B -> C [style="dashed"]
+C -> D
+e -> f
+
+}
