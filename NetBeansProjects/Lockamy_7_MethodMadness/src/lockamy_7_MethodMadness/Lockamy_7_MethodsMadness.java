@@ -14,7 +14,7 @@ public class Lockamy_7_MethodsMadness extends Application {
     }
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Drawing Operations Test");
+        primaryStage.setTitle("Yoshi's Egg");
         Group root = new Group();
         Canvas canvas = new Canvas(300, 350);
         GraphicsContext gc = canvas.getGraphicsContext2D();
@@ -62,4 +62,4 @@ private void drawGarrettL(GraphicsContext gc) {
     gc.strokeText("Garrett Lockamy", 10, 25, 125);
     
 }
-} 
+}

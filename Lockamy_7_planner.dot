@@ -2,7 +2,7 @@ digraph Garretts_planner {
 
 A [label="Start"]
 B [label="tutorial"]
-C [label="eat food"]
+C [label="eat"]
 D [label="drink water"]
 E [labal="do homework"]
 F [label="go to sleep"]
@@ -10,10 +10,10 @@ G [label="wake up"]
 
 A -> B [label="Start Sequence", fontcolor="green"]
 B -> C [style="dashed"]
-C -> D [style="bashed"]
-E -> F [
-F -> G [
-
+C -> D [              ]
+E -> F [	      ]
+F -> G [	      ]
+G -> I [	      ]
 
 
 
